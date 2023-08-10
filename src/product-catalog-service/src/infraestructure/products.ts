@@ -1,0 +1,151 @@
+import { Product } from "../domain/Product";
+export const products: Array<Product> = [
+  {
+    id: "jfjhfkjkfkkf",
+    name: "Orange pants",
+    description: "Modern Orange pants",
+    picture: {
+      id: "string",
+      link: "src/product-catalog-service/infraestructure/assets/emmeline-t-SdR2wW-v4PE-unsplash.jpg",
+      credits: {
+        name: "Emmeline T.",
+        link: "https://unsplash.com/pt-br/fotografias/SdR2wW-v4PE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      },
+    },
+    price: 130.0,
+    categories: [
+      {
+        id: "string",
+        name: "Clothing",
+      },
+      {
+        id: "string",
+        name: "Female",
+      },
+    ],
+  },
+  {
+    id: "jfjhfkjkfkkf",
+    name: "Black pants",
+    description: "Social Black pants",
+    picture: {
+      id: "string",
+      link: "src/product-catalog-service/infraestructure/assets/santhosh-vaithiyanathan-ylHcWlrMlzs-unsplash.jpg",
+      credits: {
+        name: "Santhosh Vaithiyanathan",
+        link: "https://unsplash.com/pt-br/fotografias/ylHcWlrMlzs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      },
+    },
+    price: 125.0,
+    categories: [
+      {
+        id: "string",
+        name: "Clothing",
+      },
+      {
+        id: "string",
+        name: "Male",
+      },
+    ],
+  },
+  {
+    id: "jfjhfkjkfkkf",
+    name: "Red pants",
+    description: "Confy Red pants",
+    picture: {
+      id: "string",
+      link: "src/product-catalog-service/infraestructure/assets/malik-skydsgaard-3we24FcjVAk-unsplash.jpg",
+      credits: {
+        name: "Malik Skydsgaard",
+        link: "https://unsplash.com/pt-br/fotografias/3we24FcjVAk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      },
+    },
+    price: 150.0,
+    categories: [
+      {
+        id: "string",
+        name: "Clothing",
+      },
+      {
+        id: "string",
+        name: "Female",
+      },
+    ],
+  },
+  {
+    id: "jfjhfkjkfkkf",
+    name: "Blue T-Shirt",
+    description: "Confy Blue T-Shirt",
+    picture: {
+      id: "string",
+      link: "src/product-catalog-service/infraestructure/assets/patty-brito-BN760VSO8yM-unsplash.jpg",
+      credits: {
+        name: "Patty Brito",
+        link: "https://unsplash.com/pt-br/fotografias/BN760VSO8yM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      },
+    },
+    price: 40.0,
+    categories: [
+      {
+        id: "string",
+        name: "Clothing",
+      },
+      {
+        id: "string",
+        name: "Male",
+      },
+      {
+        id: "string",
+        name: "Kids",
+      },
+    ],
+  },
+  {
+    id: "jfjhfkjkfkkf",
+    name: "Brown Shoes",
+    description: "Elegant Brown Shoes",
+    picture: {
+      id: "string",
+      link: "src/product-catalog-service/infraestructure/assets/zac-wolff-esxf7PJmExQ-unsplash.jpg",
+      credits: {
+        name: "Zac Wolff",
+        link: "https://unsplash.com/pt-br/fotografias/esxf7PJmExQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      },
+    },
+    price: 200.0,
+    categories: [
+      {
+        id: "string",
+        name: "Shoes",
+      },
+      {
+        id: "string",
+        name: "Male",
+      },
+    ],
+  },
+  {
+    id: "jfjhfkjkfkkf",
+    name: "Brown Sunglasses",
+    description: "Modern Brown Sunglasses",
+    picture: {
+      id: "string",
+      link: "src/product-catalog-service/infraestructure/assets/pablo-soriano-Hnp-cs9QVOc-unsplash.jpg",
+      credits: {
+        name: "Pablo Soriano",
+        link: "https://unsplash.com/pt-br/fotografias/Hnp-cs9QVOc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      },
+    },
+    price: 100.0,
+    categories: [
+      {
+        id: "string",
+        name: "Accessories",
+      },
+      {
+        id: "string",
+        name: "Male",
+      },
+    ],
+  },
+];
